@@ -59,14 +59,24 @@ body {
     margin-right: auto;
     width: 50%;
 }
-/*.test p {
-    margin: auto;
+.test p {
     text-align: center;
-}*/
+}
+
+span {
+    color: gray;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0;
+}
 
 h3 {
-    font-size: 100px;
+    font-size: 50px;
     color: whitesmoke;
+    line-height: 50px;
 }
 
 h4 {
@@ -75,17 +85,27 @@ h4 {
     color: rgb(0, 255, 0);
 }
 
+h5 {
+    font-size: 15px;
+}
+
 .card a {
     text-decoration: none;
     color: rgb(0, 255, 0);
 }
 
+/*.about-me-title {
+    outline: 5px solid black;
+    display: block;
+    text-align: center;
+}*/
+
 .about-me-content {
     margin: auto;
     padding: auto;
-    text-align: center;
+    text-align: left;
   /*  outline: 5px solid orange;*/
-    width: 400px;
+    width: 500px;
     height: 250px;
 }
 
@@ -115,6 +135,21 @@ p {
     color: white;
     font-size: 20px;
     line-height: 20px;
+}
+
+#contact-me ul {
+    list-style-type: none;
+}
+
+#contact-me ul li {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+#contact-me a {
+    text-decoration: underline;
+    color: aqua;
+    font-size: 20px;
 }
 
 .card {
@@ -155,6 +190,10 @@ p {
 
 .card:hover {
     transform: translateY(-10px);
+}
+
+footer {
+    text-align: center;
 }
 
 body, html {
