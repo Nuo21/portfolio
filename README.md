@@ -1,2 +1,3 @@
 # week2-challenge
-My Portfolio
+
+Week 2 Challenge - My Portfolio
