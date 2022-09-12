@@ -63,6 +63,16 @@ body {
     text-align: center;
 }
 
+.headshot img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 375px;
+    border-radius: 15px;
+    border: 5px solid rgb(0, 153, 255);
+}
+
 span {
     color: gray;
 }
